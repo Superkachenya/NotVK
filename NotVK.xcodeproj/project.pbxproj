@@ -105,6 +105,7 @@
 		8E1B24B61D84418F00A55A25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NVK;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Cleveroad;
 				TargetAttributes = {
