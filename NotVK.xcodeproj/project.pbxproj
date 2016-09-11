@@ -14,6 +14,7 @@
 		8E1B24CC1D84418F00A55A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CA1D84418F00A55A25 /* Main.storyboard */; };
 		8E1B24CE1D84418F00A55A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CD1D84418F00A55A25 /* Assets.xcassets */; };
 		8E1B24D11D84418F00A55A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CF1D84418F00A55A25 /* LaunchScreen.storyboard */; };
+		8E1B24DA1D8446A400A55A25 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24D81D8446A400A55A25 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8E1B24CD1D84418F00A55A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E1B24D01D84418F00A55A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E1B24D21D84418F00A55A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1B24D91D8446A400A55A25 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		CAA9F2ED2A31201787321BAF /* Pods-NotVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotVK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotVK/Pods-NotVK.debug.xcconfig"; sourceTree = "<group>"; };
 		F0998C52B8EFC7C26D3A398D /* Pods-NotVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotVK.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotVK/Pods-NotVK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 		8E1B24B51D84418F00A55A25 = {
 			isa = PBXGroup;
 			children = (
+				8E1B24D81D8446A400A55A25 /* Model.xcdatamodeld */,
 				8E1B24C01D84418F00A55A25 /* NotVK */,
 				8E1B24BF1D84418F00A55A25 /* Products */,
 				7BE1B449A58F3E377677AA34 /* Pods */,
@@ -228,6 +231,7 @@
 				8E1B24C91D84418F00A55A25 /* ViewController.m in Sources */,
 				8E1B24C61D84418F00A55A25 /* AppDelegate.m in Sources */,
 				8E1B24C31D84418F00A55A25 /* main.m in Sources */,
+				8E1B24DA1D8446A400A55A25 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotVK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cleveroad.NotVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotVK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cleveroad.NotVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +387,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E1B24D81D8446A400A55A25 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E1B24D91D8446A400A55A25 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8E1B24D91D8446A400A55A25 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = NotVK/Model/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8E1B24B61D84418F00A55A25 /* Project object */;
 }
