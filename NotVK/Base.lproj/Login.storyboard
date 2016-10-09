@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oNj-aH-B6B">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="iNP-55-uLF">
+            <objects>
+                <viewController id="oNj-aH-B6B" customClass="NVKLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DW4-JA-Xam"/>
+                        <viewControllerLayoutGuide type="bottom" id="oMY-N7-MhK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sle-2J-r8j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="U2T-qW-IlK">
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email or phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gHE-Dr-eap">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ud-TH-ONf">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueSplash" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-Bm-AAX"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXi-lF-Y4z">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="AGG-f3-4b2"/>
+                                    <constraint firstAttribute="height" constant="44" id="GVB-45-Tfu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionLoginPressed:" destination="oNj-aH-B6B" eventType="touchUpInside" id="pbU-WE-Lib"/>
+                                    <segue destination="i7l-rq-0hX" kind="show" identifier="toMainScreen" id="8ga-kf-OpU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.67518857758620687" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="U2T-qW-IlK" firstAttribute="top" secondItem="DW4-JA-Xam" secondAttribute="bottom" constant="100" id="1zI-cV-g9q"/>
+                            <constraint firstAttribute="trailing" secondItem="pLd-Bm-AAX" secondAttribute="trailing" id="3T2-ep-Rj6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U2T-qW-IlK" secondAttribute="trailing" constant="20" id="GRs-6m-bWk"/>
+                            <constraint firstItem="pLd-Bm-AAX" firstAttribute="top" secondItem="U2T-qW-IlK" secondAttribute="bottom" constant="-7" id="HGw-3A-tLO"/>
+                            <constraint firstItem="IXi-lF-Y4z" firstAttribute="centerX" secondItem="sle-2J-r8j" secondAttribute="centerX" id="NZB-UX-1ba"/>
+                            <constraint firstItem="IXi-lF-Y4z" firstAttribute="top" secondItem="U2T-qW-IlK" secondAttribute="bottom" constant="50" id="S2N-KE-KOt"/>
+                            <constraint firstItem="U2T-qW-IlK" firstAttribute="leading" secondItem="sle-2J-r8j" secondAttribute="leadingMargin" constant="20" id="fa3-EB-GCc"/>
+                            <constraint firstItem="pLd-Bm-AAX" firstAttribute="leading" secondItem="sle-2J-r8j" secondAttribute="leading" id="u3h-wR-soD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginTextField" destination="gHE-Dr-eap" id="mmT-bf-IoQ"/>
+                        <outlet property="passwordTextField" destination="0ud-TH-ONf" id="uo0-qU-D6c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8F-a0-2zA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392.80000000000001" y="-174.06296851574214"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="5IJ-jv-ZsD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="i7l-rq-0hX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SkG-gu-tcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueSplash" width="400" height="155"/>
+    </resources>
+</document>

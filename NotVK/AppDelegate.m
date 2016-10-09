@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <VK-ios-sdk/VKSdk.h>
+#import "NVKSocialAuth.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +16,10 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    NVKSocialAuth *authInstance = [NVKSocialAuth new];
+    [authInstance startLogin];
+     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -40,6 +42,11 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    [VKSdk processOpenURL:url fromApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]];
+    return YES;
 }
 
 @end

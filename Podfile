@@ -1,8 +1,9 @@
-platform :ios, "8.0"
+platform :ios, "9.0"
 
 target 'NotVK' do
 
 pod 'AFNetworking'
 pod 'MagicalRecord'
+pod 'VK-ios-sdk'
 
 end

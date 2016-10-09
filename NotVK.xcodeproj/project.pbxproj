@@ -7,29 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CC90B8817FCAFB75A5EB87E /* libPods-NotVK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5447D38C68B415D6B24E8B /* libPods-NotVK.a */; };
+		7F26FE3EA7E423578038BEB9 /* libPods-NotVK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4208641F524404088DF043 /* libPods-NotVK.a */; };
 		8E1B24C31D84418F00A55A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24C21D84418F00A55A25 /* main.m */; };
 		8E1B24C61D84418F00A55A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24C51D84418F00A55A25 /* AppDelegate.m */; };
-		8E1B24C91D84418F00A55A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24C81D84418F00A55A25 /* ViewController.m */; };
+		8E1B24C91D84418F00A55A25 /* NVKMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24C81D84418F00A55A25 /* NVKMainScreenViewController.m */; };
 		8E1B24CC1D84418F00A55A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CA1D84418F00A55A25 /* Main.storyboard */; };
 		8E1B24CE1D84418F00A55A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CD1D84418F00A55A25 /* Assets.xcassets */; };
 		8E1B24D11D84418F00A55A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B24CF1D84418F00A55A25 /* LaunchScreen.storyboard */; };
 		8E1B24DA1D8446A400A55A25 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B24D81D8446A400A55A25 /* Model.xcdatamodeld */; };
+		8E4C23D31D8D56DB00F17D70 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4C23D11D8D56DB00F17D70 /* Login.storyboard */; };
+		8E4C23D61D8D619900F17D70 /* NVKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C23D51D8D619900F17D70 /* NVKLoginViewController.m */; };
+		8E87CD071DAA797B0013C9A8 /* NVKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87CD061DAA797B0013C9A8 /* NVKRootViewController.m */; };
+		8E87CD0B1DAA81550013C9A8 /* NVKSocialAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87CD0A1DAA81550013C9A8 /* NVKSocialAuth.m */; };
+		8E87CD0F1DAA903A0013C9A8 /* NVKRootNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87CD0E1DAA903A0013C9A8 /* NVKRootNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D5447D38C68B415D6B24E8B /* libPods-NotVK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotVK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4208641F524404088DF043 /* libPods-NotVK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotVK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1B24BE1D84418F00A55A25 /* NotVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1B24C21D84418F00A55A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E1B24C41D84418F00A55A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E1B24C51D84418F00A55A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E1B24C71D84418F00A55A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E1B24C81D84418F00A55A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E1B24C71D84418F00A55A25 /* NVKMainScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVKMainScreenViewController.h; sourceTree = "<group>"; };
+		8E1B24C81D84418F00A55A25 /* NVKMainScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVKMainScreenViewController.m; sourceTree = "<group>"; };
 		8E1B24CB1D84418F00A55A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E1B24CD1D84418F00A55A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E1B24D01D84418F00A55A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E1B24D21D84418F00A55A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E1B24D91D8446A400A55A25 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8E4C23D21D8D56DB00F17D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		8E4C23D41D8D619900F17D70 /* NVKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVKLoginViewController.h; path = Presentation/NVKLoginViewController/NVKLoginViewController.h; sourceTree = "<group>"; };
+		8E4C23D51D8D619900F17D70 /* NVKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NVKLoginViewController.m; path = Presentation/NVKLoginViewController/NVKLoginViewController.m; sourceTree = "<group>"; };
+		8E87CD051DAA797B0013C9A8 /* NVKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVKRootViewController.h; path = Presentation/NVKRootViewController/NVKRootViewController.h; sourceTree = "<group>"; };
+		8E87CD061DAA797B0013C9A8 /* NVKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NVKRootViewController.m; path = Presentation/NVKRootViewController/NVKRootViewController.m; sourceTree = "<group>"; };
+		8E87CD091DAA81550013C9A8 /* NVKSocialAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVKSocialAuth.h; sourceTree = "<group>"; };
+		8E87CD0A1DAA81550013C9A8 /* NVKSocialAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVKSocialAuth.m; sourceTree = "<group>"; };
+		8E87CD0D1DAA903A0013C9A8 /* NVKRootNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVKRootNetworkManager.h; path = NVKRootNetworkManager/NVKRootNetworkManager.h; sourceTree = "<group>"; };
+		8E87CD0E1DAA903A0013C9A8 /* NVKRootNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NVKRootNetworkManager.m; path = NVKRootNetworkManager/NVKRootNetworkManager.m; sourceTree = "<group>"; };
 		CAA9F2ED2A31201787321BAF /* Pods-NotVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotVK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotVK/Pods-NotVK.debug.xcconfig"; sourceTree = "<group>"; };
 		F0998C52B8EFC7C26D3A398D /* Pods-NotVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotVK.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotVK/Pods-NotVK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC90B8817FCAFB75A5EB87E /* libPods-NotVK.a in Frameworks */,
+				7F26FE3EA7E423578038BEB9 /* libPods-NotVK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +63,7 @@
 		311130748DA9282048E561D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D5447D38C68B415D6B24E8B /* libPods-NotVK.a */,
+				6D4208641F524404088DF043 /* libPods-NotVK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,9 +101,13 @@
 			children = (
 				8E1B24C41D84418F00A55A25 /* AppDelegate.h */,
 				8E1B24C51D84418F00A55A25 /* AppDelegate.m */,
-				8E1B24C71D84418F00A55A25 /* ViewController.h */,
-				8E1B24C81D84418F00A55A25 /* ViewController.m */,
+				8E87CD101DAA90440013C9A8 /* NVKRootNetworkManager */,
+				8E87CD0C1DAA90140013C9A8 /* NVKSocialAuth */,
+				8E87CD081DAA79840013C9A8 /* NVKRootViewController */,
+				8E4C23D81D8D648F00F17D70 /* NVKMainScreenViewController */,
+				8E4C23D71D8D61A100F17D70 /* NVKLoginViewController */,
 				8E1B24CA1D84418F00A55A25 /* Main.storyboard */,
+				8E4C23D11D8D56DB00F17D70 /* Login.storyboard */,
 				8E1B24CD1D84418F00A55A25 /* Assets.xcassets */,
 				8E1B24CF1D84418F00A55A25 /* LaunchScreen.storyboard */,
 				8E1B24D21D84418F00A55A25 /* Info.plist */,
@@ -104,6 +122,51 @@
 				8E1B24C21D84418F00A55A25 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4C23D71D8D61A100F17D70 /* NVKLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E4C23D41D8D619900F17D70 /* NVKLoginViewController.h */,
+				8E4C23D51D8D619900F17D70 /* NVKLoginViewController.m */,
+			);
+			name = NVKLoginViewController;
+			sourceTree = "<group>";
+		};
+		8E4C23D81D8D648F00F17D70 /* NVKMainScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E1B24C71D84418F00A55A25 /* NVKMainScreenViewController.h */,
+				8E1B24C81D84418F00A55A25 /* NVKMainScreenViewController.m */,
+			);
+			name = NVKMainScreenViewController;
+			sourceTree = "<group>";
+		};
+		8E87CD081DAA79840013C9A8 /* NVKRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E87CD051DAA797B0013C9A8 /* NVKRootViewController.h */,
+				8E87CD061DAA797B0013C9A8 /* NVKRootViewController.m */,
+			);
+			name = NVKRootViewController;
+			sourceTree = "<group>";
+		};
+		8E87CD0C1DAA90140013C9A8 /* NVKSocialAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8E87CD091DAA81550013C9A8 /* NVKSocialAuth.h */,
+				8E87CD0A1DAA81550013C9A8 /* NVKSocialAuth.m */,
+			);
+			name = NVKSocialAuth;
+			sourceTree = "<group>";
+		};
+		8E87CD101DAA90440013C9A8 /* NVKRootNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E87CD0D1DAA903A0013C9A8 /* NVKRootNetworkManager.h */,
+				8E87CD0E1DAA903A0013C9A8 /* NVKRootNetworkManager.m */,
+			);
+			name = NVKRootNetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4C23D31D8D56DB00F17D70 /* Login.storyboard in Resources */,
 				8E1B24D11D84418F00A55A25 /* LaunchScreen.storyboard in Resources */,
 				8E1B24CE1D84418F00A55A25 /* Assets.xcassets in Resources */,
 				8E1B24CC1D84418F00A55A25 /* Main.storyboard in Resources */,
@@ -228,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1B24C91D84418F00A55A25 /* ViewController.m in Sources */,
+				8E87CD071DAA797B0013C9A8 /* NVKRootViewController.m in Sources */,
+				8E87CD0B1DAA81550013C9A8 /* NVKSocialAuth.m in Sources */,
+				8E87CD0F1DAA903A0013C9A8 /* NVKRootNetworkManager.m in Sources */,
+				8E1B24C91D84418F00A55A25 /* NVKMainScreenViewController.m in Sources */,
 				8E1B24C61D84418F00A55A25 /* AppDelegate.m in Sources */,
 				8E1B24C31D84418F00A55A25 /* main.m in Sources */,
+				8E4C23D61D8D619900F17D70 /* NVKLoginViewController.m in Sources */,
 				8E1B24DA1D8446A400A55A25 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +320,14 @@
 				8E1B24D01D84418F00A55A25 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4C23D11D8D56DB00F17D70 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4C23D21D8D56DB00F17D70 /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,8 +420,9 @@
 			baseConfigurationReference = CAA9F2ED2A31201787321BAF /* Pods-NotVK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotVK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cleveroad.NotVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +434,9 @@
 			baseConfigurationReference = F0998C52B8EFC7C26D3A398D /* Pods-NotVK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotVK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cleveroad.NotVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
